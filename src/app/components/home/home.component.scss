@@ -1,0 +1,72 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    min-height: 100vh;
+    background: #222;
+    color: white;
+  
+    .intro {
+      max-width: 600px;
+  
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+  
+        span {
+          color: #ffcc00; // Highlight name
+        }
+      }
+  
+      h2 {
+        font-size: 2rem;
+        color: #ccc;
+        margin-bottom: 15px;
+      }
+  
+      p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+  
+      .btn {
+        display: inline-block;
+        padding: 12px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s ease;
+        cursor: pointer;
+      }
+  
+      .primary-btn {
+        background: #ffcc00;
+        color: black;
+        margin-right: 10px;
+  
+        &:hover {
+          background: #e6b800;
+        }
+      }
+  
+      .secondary-btn {
+        background: transparent;
+        border: 2px solid #ffcc00;
+        color: #ffcc00;
+  
+        &:hover {
+          background: #ffcc00;
+          color: black;
+        }
+      }
+    }
+  
+    .hero-image img {
+      width: 350px;
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(255, 204, 0, 0.5);
+    }
+  }
+  
